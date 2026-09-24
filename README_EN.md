@@ -10,6 +10,12 @@ A two-factor authentication key management system built on Cloudflare Workers. F
 
 **Key Features:** TOTP/HOTP code auto-generation · QR code scanning/image recognition/paste screenshot/drag & drop image to add keys · AES-GCM 256-bit encrypted storage · Bulk import from Google Authenticator, Aegis, 2FAS, Bitwarden, etc. · Multi-format export (TXT/JSON/CSV/HTML/Google migration QR codes) · Auto backup & restore · WebDAV/S3/OneDrive/Google Drive remote backup sync · Security/sync/preference settings · Light/dark/follow-system themes · Fluent 2-inspired responsive UI
 
+## 🧩 Browser Extension
+
+**[Install 2FA Verification Assistant from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/kmchncmoddhdlbpfoejeahdjhieghklm)** · Chrome Web Store review is pending.
+
+Open the installation link in Edge. After installation, enter your self-hosted 2FA instance URL in the extension settings and sign in to that instance in the same browser to view, copy, and fill TOTP codes. Automatic filling requires separate permission for each verification page. The extension requires a deployed instance of this project and currently has a Simplified Chinese interface.
+
 ## 📸 Screenshots
 
 |                    Desktop                     |                    Tablet                    |                    Mobile                    |

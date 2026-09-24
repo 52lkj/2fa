@@ -10,6 +10,12 @@
 
 **主要特性：** TOTP/HOTP 验证码自动生成 · 二维码扫描/图片识别/粘贴截图/拖拽图片添加密钥 · AES-GCM 256 位加密存储 · 从 Google Authenticator、Aegis、2FAS、Bitwarden 等应用批量导入 · 多格式导出（TXT/JSON/CSV/HTML/Google 迁移二维码） · 自动备份与还原 · WebDAV/S3/OneDrive/Google Drive 远程备份同步 · 账户安全/同步/偏好设置 · 浅色/深色/跟随系统主题 · Fluent 2 风格响应式界面
 
+## 🧩 浏览器扩展
+
+**[从 Microsoft Edge 商店安装「2FA 验证助手」](https://microsoftedge.microsoft.com/addons/detail/kmchncmoddhdlbpfoejeahdjhieghklm)** · Chrome Web Store 审核中。
+
+请使用 Edge 打开安装链接。安装后，在扩展设置中填写自己的 2FA 实例地址，并在同一浏览器中登录实例，即可查看、复制和填充 TOTP 验证码；自动填充需在目标验证页面单独开启并授权。扩展需配合已部署的本项目使用，界面为简体中文。
+
 ## 📸 截图预览
 
 |                    桌面端                     |                    平板端                    |                    手机端                    |
